@@ -33,6 +33,7 @@ function throttle(func, wait, option = { leading: true, trailing: true }) {
         lastArg = arg;
       }
 
+      //수정 테스트
       isWait = true; //✅ 이 부분을 까먹음! 항상 호출되면 cooling시작!
       delay();
     } else {
